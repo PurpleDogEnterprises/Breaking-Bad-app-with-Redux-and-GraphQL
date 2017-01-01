@@ -1,0 +1,26 @@
+{
+  "name": "breaking-bad-app",
+  "version": "1.0.0",
+  "description": "Breaking Bad app using Redux, GraphQL, Express, Webpack, and Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PurpleDogEnterprises/Breaking-Bad-app-with-Redux-and-GraphQL.git"
+  },
+  "author": "Sean Guthrie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PurpleDogEnterprises/Breaking-Bad-app-with-Redux-and-GraphQL/issues"
+  },
+  "homepage": "https://github.com/PurpleDogEnterprises/Breaking-Bad-app-with-Redux-and-GraphQL#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-graphql": "^0.6.1",
+    "graphql": "^0.8.2",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
