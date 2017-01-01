@@ -53,3 +53,30 @@ var breaking = {
    id: 6
  }
 }
+
+var breakingType = new GraphQLObjectType({
+  name: 'character',
+  description: "character from Breaking Bad",
+  fields: {
+    character: {
+      type: GraphQLString,
+      description: "Name of the character",
+    },
+    actor: {
+      type: GraphQLString,
+      description: "Actor playing the character",
+    },
+    role: {
+      type: GraphQLString,
+      description: "Role of thie character"
+    },
+    traits: {
+      type: GraphQLString,
+      description: "Traits this character is known for"
+    },
+    id: {
+      type: GraphQLInt,
+      description: "ID of this character",
+    }
+  }
+});
